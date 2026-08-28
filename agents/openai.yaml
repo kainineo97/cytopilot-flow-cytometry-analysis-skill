@@ -1,0 +1,4 @@
+interface:
+  display_name: "CytoPilot Flow Cytometry Analysis"
+  short_description: "Replay, edit, validate, and audit CytoPilot flow analyses"
+  default_prompt: "Use $cytopilot-flow-cytometry-analysis to analyze, validate, or safely edit my FCS/WSP gating strategy with CytoPilot."

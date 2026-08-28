@@ -1,0 +1,44 @@
+{
+  "report_schema_version": "cytopilot-analysis-report-1.1",
+  "analysis_mode": "exact-wsp",
+  "status": "REPLAYED",
+  "sample_count": 1,
+  "total_gate_matches": 1,
+  "total_gate_mismatches": 0,
+  "warnings": [],
+  "samples": [
+    {
+      "sample_id": "synthetic-sample-1",
+      "sample_name": "synthetic-sample-1.fcs",
+      "fcs_path": "fixtures/synthetic-sample-1.fcs",
+      "status": "REPLAYED",
+      "event_count": 1000,
+      "compensation_source": "none",
+      "matches": 1,
+      "mismatches": 0,
+      "warnings": [],
+      "notices": [],
+      "gates": [
+        {
+          "path": "Synthetic Root",
+          "path_segments": ["Synthetic Root"],
+          "gate_type": "rectangle",
+          "dimensions": ["FSC-A"],
+          "geometry": {
+            "dimensions": [{"parameter": "FSC-A", "min": null, "max": null}],
+            "vertices": [],
+            "events_inside": true
+          },
+          "count": 1000,
+          "parent_count": 1000,
+          "total_count": 1000,
+          "percent_parent": 100.0,
+          "percent_total": 100.0,
+          "recorded_count": 1000,
+          "count_difference": 0,
+          "status": "CACHE_MATCH"
+        }
+      ]
+    }
+  ]
+}
