@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+validation_result*.json
+*.fcs
+*.FCS
+*.wsp
+*.WSP
+*.hws
+*.HWS
