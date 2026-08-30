@@ -4,6 +4,10 @@ An MIT-licensed Codex skill for traceable review, replay, adjustment, and valida
 
 This repository contains the complete skill instructions, implementation notes, and a standard-library-only validator for CytoPilot `analysis_report.json` files. It does **not** contain the CytoPilot analysis engine, FlowJo software, real FCS/WSP files, patient/sample data, or proprietary templates.
 
+## Interactive demo
+
+Explore the [sanitized CytoPilot interface demo](https://cytopilot-cloudflare-pages-demo.pages.dev/) to see how the flow-cytometry analysis workflow is presented within the broader CytoPilot application. The demo preserves the product interface and page navigation for illustration, but uses synthetic content and does not upload files, run analyses, submit data, generate results, or connect to the CytoPilot backend. It is intended solely as a non-functional product preview; the analysis skill in this repository remains an independently installable component.
+
 ## Install as a Codex skill
 
 Copy or clone this repository into your Codex skills directory so that `SKILL.md` is at the skill root. The skill can guide a compatible CytoPilot workflow; the bundled validator can also run independently.
